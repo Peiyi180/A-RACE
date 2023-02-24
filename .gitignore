@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.bin
+events.out.*
+saved_model/*
+*.tar.gz
+dataset/*
+#
