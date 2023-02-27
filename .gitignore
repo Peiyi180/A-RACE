@@ -11,3 +11,9 @@ saved_model/*
 *.tar.gz
 dataset/*
 #
+
+# Ignore macos generated files
+.DS_Store
+# ignore jupyter notebook generated checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
