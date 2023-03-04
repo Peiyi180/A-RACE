@@ -34,6 +34,8 @@ pip install -r requirements.txt
 language=java
 bash run.sh $language
 ```
+Run small result:
+![arm run small result](../images/arm64_no_gpu_run_small_result.png)
 
 2. Running on colab free tire
 
