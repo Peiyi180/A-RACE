@@ -94,8 +94,12 @@ class ECMGModel(T5ForConditionalGeneration):
             return outputs
             # return outputs
         else:
-            preds=[]       
-            zero=torch.cuda.LongTensor(1).fill_(0)
+            preds=[]
+            if torch.cuda.is_available():
+                zero = torch.cuda.LongTensor(1).fill_(0)
+            else:
+                zero = torch.LongTensor(1).fill_(0)
+
             for i in range(source_ids.shape[0]): 
                 context=combined_encoder_output[i:i+1] # [1,seq_len,  dim ]
                 context_mask=combined_encoder_mask[i:i+1,:]
@@ -141,7 +145,10 @@ class ECMGModel(T5ForConditionalGeneration):
 class Beam(object):
     def __init__(self, size,sos,eos):
         self.size = size
-        self.tt = torch.cuda
+        if torch.cuda.is_available():
+            self.tt = torch.cuda
+        else:
+            self.tt = torch
         # The score for each translation on the beam.
         self.scores = self.tt.FloatTensor(size).zero_()
         # The backpointers at each time-step.
