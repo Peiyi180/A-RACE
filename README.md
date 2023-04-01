@@ -1,6 +1,7 @@
 # Adjusted RACE Framework
-## CSCI 4130 Group 3
+## CSCI6314-FINALPROJECT-GROUP3
 This framework is based on: https://github.com/DeepSoftwareAnalytics/RACE
+
 ### Author:
 - Peiyi Jiang (PJ@dal.ca)
 - Haoyi Zhang
