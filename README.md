@@ -7,6 +7,23 @@ This framework is based on: https://github.com/DeepSoftwareAnalytics/RACE
 - Haoyi Zhang
 - Jiahao Chen
 
+## Directions
+#### Our experiments are on separate branches. Please checkout to the correcponding branch and follow the instructions there.
+Model(C+G): https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/model-direction
+
+AST: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/ast-direction
+
+Dataset: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/dataset-direction
+
+#### We also create corresponding demo/deployment branch for each direction.
+Demo-Model(C+G): https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/demo-model
+
+Demo-AST: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/demo-ast
+
+Demo-Dataset: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/demo-go
+
+
+
 ## Changes
 1. Add conditions to determine if computer support cuda in the ECMG model. This will enable 
 the model to be tested on a machine that doesn't have NVIDIA GPU
