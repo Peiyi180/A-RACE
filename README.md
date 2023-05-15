@@ -2,6 +2,8 @@
 
 This framework is based on: https://github.com/DeepSoftwareAnalytics/RACE
 
+Our research paper can be found [here](./Report.pdf).
+
 ### Author:
 - Peiyi Jiang (PJ@dal.ca)
 - Haoyi Zhang
