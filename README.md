@@ -1,5 +1,5 @@
 # Adjusted RACE Framework
-## CSCI6314-FINALPROJECT-GROUP3
+
 This framework is based on: https://github.com/DeepSoftwareAnalytics/RACE
 
 ### Author:
@@ -9,18 +9,18 @@ This framework is based on: https://github.com/DeepSoftwareAnalytics/RACE
 
 ## Directions
 #### Our experiments are on separate branches. Please checkout to the correcponding branch and follow the instructions there.
-Model(C+G): https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/model-direction
+Model(C+G): model-direction
 
-AST: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/ast-direction
+AST: ast-direction
 
-Dataset: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/dataset-direction
+Dataset: dataset-direction
 
 #### We also create corresponding demo/deployment branch for each direction.
-Demo-Model(C+G): https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/demo-model
+Demo-Model(C+G): demo-model
 
-Demo-AST: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/demo-ast
+Demo-AST: demo-ast
 
-Demo-Dataset: https://git.cs.dal.ca/bharatwaaj/csci6314-finalproject-group3/-/tree/demo-go
+Demo-Dataset: demo-go
 
 
 
