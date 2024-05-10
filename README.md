@@ -7,7 +7,7 @@ Our research paper can be found [here](./Report.pdf).
 ### Author:
 - Peiyi Jiang (PJ@dal.ca)
 - Haoyi Zhang
-- Jiahao Chen
+- Jiahao Chen (jiahaoly.chen@mail.utoronto.ca)
 
 ## Directions
 #### Our experiments are on separate branches. Please checkout to the correcponding branch and follow the instructions there.
